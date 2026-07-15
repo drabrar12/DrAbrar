@@ -1,3 +1,4 @@
+```html
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,16 +9,88 @@
     content="width=device-width, initial-scale=1"
   >
 
-  <title>About | Dr. Abrar Hussain</title>
+  <title>About Dr. Abrar Hussain | Islamic Scholar</title>
 
   <meta
     name="description"
-    content="Biography, educational background, scholarship, and areas of focus of Dr. Abrar Hussain."
+    content="Learn about the biography, education, scholarship, religious training, and areas of focus of Dr. Abrar Hussain."
+  >
+
+  <meta
+    name="author"
+    content="Dr. Abrar Hussain"
+  >
+
+  <link
+    rel="canonical"
+    href="https://drabrar12.github.io/DrAbrar/about.html"
   >
 
   <link
     rel="stylesheet"
-    href="assets/css/styles.css"
+    href="styles.css"
+  >
+
+  <!-- Open Graph: WhatsApp, Facebook, and LinkedIn -->
+  <meta
+    property="og:type"
+    content="profile"
+  >
+
+  <meta
+    property="og:site_name"
+    content="Dr. Abrar Hussain"
+  >
+
+  <meta
+    property="og:title"
+    content="About Dr. Abrar Hussain | Islamic Scholar"
+  >
+
+  <meta
+    property="og:description"
+    content="Biography, education, scholarship, religious training, and areas of focus of Dr. Abrar Hussain."
+  >
+
+  <meta
+    property="og:url"
+    content="https://drabrar12.github.io/DrAbrar/about.html"
+  >
+
+  <meta
+    property="og:image"
+    content="https://raw.githubusercontent.com/drabrar12/DrAbrar/main/profile.jpeg"
+  >
+
+  <meta
+    property="og:image:alt"
+    content="Portrait of Dr. Abrar Hussain"
+  >
+
+  <!-- X and other social platforms -->
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  >
+
+  <meta
+    name="twitter:title"
+    content="About Dr. Abrar Hussain | Islamic Scholar"
+  >
+
+  <meta
+    name="twitter:description"
+    content="Biography, education, scholarship, religious training, and areas of focus of Dr. Abrar Hussain."
+  >
+
+  <meta
+    name="twitter:image"
+    content="https://raw.githubusercontent.com/drabrar12/DrAbrar/main/profile.jpeg"
+  >
+
+  <meta
+    name="twitter:image:alt"
+    content="Portrait of Dr. Abrar Hussain"
   >
 
   <script type="application/ld+json">
@@ -25,12 +98,26 @@
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Dr. Abrar Hussain",
+    "honorificPrefix": "Dr.",
     "jobTitle": "Islamic Scholar",
-    "description": "Islamic Scholar, Qur’an Reciter (Qari), Community Leader. Doctorate in Comparative Interpretation.",
+    "description": "Islamic scholar, Qur’an reciter, community educator, and holder of a doctorate in Comparative Interpretation.",
     "url": "https://drabrar12.github.io/DrAbrar/",
+    "mainEntityOfPage": "https://drabrar12.github.io/DrAbrar/about.html",
     "image": "https://raw.githubusercontent.com/drabrar12/DrAbrar/main/profile.jpeg",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Al-Mustafa International University"
+    },
     "sameAs": [
       "https://www.youtube.com/@Dr.QariAbrarHussainOfficial"
+    ],
+    "knowsAbout": [
+      "Qur’anic Studies",
+      "Comparative Interpretation",
+      "Islamic Ethics",
+      "Islamic History",
+      "Culture and Civilization",
+      "Community Education"
     ]
   }
   </script>
@@ -39,6 +126,7 @@
 <body>
 
   <header class="nav">
+
     <div class="nav-inner">
 
       <a
@@ -135,19 +223,23 @@
         Contact
       </a>
     </nav>
+
   </header>
 
   <main class="container">
 
     <div class="grid">
 
-      <!-- MAIN BIOGRAPHY CARD -->
+      <!-- Biography and education -->
       <section
         class="card"
         style="grid-column: span 7;"
+        aria-labelledby="biography-title"
       >
 
-        <h1>Biography</h1>
+        <h1 id="biography-title">
+          Biography
+        </h1>
 
         <p>
           Dr. Abrar Hussain is an Islamic scholar, Qur’an reciter
@@ -172,16 +264,19 @@
           class="section-title"
           style="margin-top: 14px;"
         >
-          <h2>Education</h2>
+          <h2>
+            Education
+          </h2>
 
           <span class="hint">
-            Higher Education
+            Academic and Religious Training
           </span>
         </div>
 
         <div class="list">
 
           <div class="item">
+
             <div class="meta">
               Doctorate
             </div>
@@ -193,9 +288,11 @@
             <div class="desc">
               Al-Mustafa International University.
             </div>
+
           </div>
 
           <div class="item">
+
             <div class="meta">
               Master’s Degree
             </div>
@@ -208,9 +305,11 @@
               Focused on Islamic history, intellectual traditions,
               and social transformation.
             </div>
+
           </div>
 
           <div class="item">
+
             <div class="meta">
               Master’s Degree
             </div>
@@ -223,9 +322,11 @@
               Study of culture, ethics, identity, and civilizational
               development.
             </div>
+
           </div>
 
           <div class="item">
+
             <div class="meta">
               Religious Studies
             </div>
@@ -238,28 +339,36 @@
               Formal study of Islamic theology, jurisprudence,
               Qur’anic interpretation, and related traditional sciences.
             </div>
+
           </div>
 
         </div>
+
       </section>
 
-      <!-- PROFILE AND FOCUS AREAS -->
+      <!-- Profile and focus areas -->
       <aside
         class="card"
         style="grid-column: span 5;"
+        aria-labelledby="profile-title"
       >
 
-        <h2>Profile</h2>
+        <h2 id="profile-title">
+          Profile
+        </h2>
 
         <img
           src="https://raw.githubusercontent.com/drabrar12/DrAbrar/main/profile.jpeg"
           alt="Portrait of Dr. Abrar Hussain"
+          width="800"
+          height="800"
           loading="eager"
           decoding="async"
           fetchpriority="high"
           style="
             display: block;
             width: 100%;
+            height: auto;
             max-height: 360px;
             object-fit: cover;
             object-position: center;
@@ -272,7 +381,9 @@
           class="section-title"
           style="margin-top: 18px;"
         >
-          <h2>Focus Areas</h2>
+          <h2>
+            Focus Areas
+          </h2>
 
           <span class="hint">
             Scholarship and Service
@@ -282,6 +393,7 @@
         <div class="list">
 
           <div class="item">
+
             <div class="title">
               Qur’anic Studies
             </div>
@@ -289,9 +401,11 @@
             <div class="desc">
               Recitation, interpretation, meaning, and reflection.
             </div>
+
           </div>
 
           <div class="item">
+
             <div class="title">
               Ethics
             </div>
@@ -300,9 +414,11 @@
               Character, responsibility, moral accountability,
               and daily conduct.
             </div>
+
           </div>
 
           <div class="item">
+
             <div class="title">
               Comparative Interpretation
             </div>
@@ -311,9 +427,11 @@
               Interpretive approaches, methodology, and scholarly
               clarity.
             </div>
+
           </div>
 
           <div class="item">
+
             <div class="title">
               Community Guidance
             </div>
@@ -321,9 +439,11 @@
             <div class="desc">
               Youth, family, education, and constructive dialogue.
             </div>
+
           </div>
 
         </div>
+
       </aside>
 
     </div>
@@ -343,24 +463,12 @@
         <div class="foot-right">
 
           <a
-            href="#"
-            aria-label="X"
+            href="https://www.youtube.com/@Dr.QariAbrarHussainOfficial"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Dr. Abrar Hussain’s official YouTube channel"
           >
-            X
-          </a>
-
-          <a
-            href="#"
-            aria-label="Facebook"
-          >
-            f
-          </a>
-
-          <a
-            href="#"
-            aria-label="LinkedIn"
-          >
-            in
+            YouTube
           </a>
 
         </div>
@@ -371,7 +479,7 @@
 
   </footer>
 
-  <script src="assets/js/main.js"></script>
+  <script src="main.js"></script>
 
   <script>
     const yearElement = document.getElementById("year");
@@ -383,3 +491,4 @@
 
 </body>
 </html>
+```
