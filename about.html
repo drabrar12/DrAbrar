@@ -2,20 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
   <title>About | Dr. Abrar Hussain</title>
-  <meta name="description" content="Biography, scholarship background, and areas of focus.">
-  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <meta
+    name="description"
+    content="Biography, educational background, scholarship, and areas of focus of Dr. Abrar Hussain."
+  >
+
+  <link
+    rel="stylesheet"
+    href="assets/css/styles.css"
+  >
 
   <script type="application/ld+json">
   {
-    "@context":"https://schema.org",
-    "@type":"Person",
-    "name":"Dr. Abrar Hussain",
-    "jobTitle":"Islamic Scholar",
-    "description":"Islamic Scholar, Qur’an Reciter (Qari), Community Leader. Doctorate in Comparative Interpretation.",
-    "url":"https://example.com",
-    "sameAs":[
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dr. Abrar Hussain",
+    "jobTitle": "Islamic Scholar",
+    "description": "Islamic Scholar, Qur’an Reciter (Qari), Community Leader. Doctorate in Comparative Interpretation.",
+    "url": "https://drabrar12.github.io/DrAbrar/",
+    "image": "https://raw.githubusercontent.com/drabrar12/DrAbrar/main/profile.jpeg",
+    "sameAs": [
       "https://www.youtube.com/@Dr.QariAbrarHussainOfficial"
     ]
   }
@@ -24,157 +38,348 @@
 
 <body>
 
-<header class="nav">
-  <div class="nav-inner">
-    <a class="brand" href="index.html">
-      <span class="name">Dr. Abrar Hussain</span>
-      <span class="tag">Islamic Scholar | Qari | Community Educator</span>
-    </a>
+  <header class="nav">
+    <div class="nav-inner">
 
-    <nav class="menu" aria-label="Primary">
-      <a href="index.html">Home</a>
-      <a class="active" href="about.html">About</a>
-      <a href="lectures.html">Lectures</a>
-      <a href="topics.html">Topics</a>
-      <a href="media.html">Media</a>
-      <a href="contact.html">Contact</a>
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="Dr. Abrar Hussain homepage"
+      >
+        <span class="name">
+          Dr. Abrar Hussain
+        </span>
+
+        <span class="tag">
+          Islamic Scholar | Qari | Community Educator
+        </span>
+      </a>
+
+      <nav
+        class="menu"
+        aria-label="Primary navigation"
+      >
+        <a href="index.html">
+          Home
+        </a>
+
+        <a
+          class="active"
+          href="about.html"
+          aria-current="page"
+        >
+          About
+        </a>
+
+        <a href="lectures.html">
+          Lectures
+        </a>
+
+        <a href="topics.html">
+          Topics
+        </a>
+
+        <a href="media.html">
+          Media
+        </a>
+
+        <a href="contact.html">
+          Contact
+        </a>
+      </nav>
+
+      <button
+        class="burger"
+        data-burger
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+        type="button"
+      >
+        Menu
+      </button>
+
+    </div>
+
+    <nav
+      id="mobileMenu"
+      class="menu mobile"
+      data-mobile-menu
+      hidden
+      aria-label="Mobile navigation"
+    >
+      <a href="index.html">
+        Home
+      </a>
+
+      <a
+        class="active"
+        href="about.html"
+        aria-current="page"
+      >
+        About
+      </a>
+
+      <a href="lectures.html">
+        Lectures
+      </a>
+
+      <a href="topics.html">
+        Topics
+      </a>
+
+      <a href="media.html">
+        Media
+      </a>
+
+      <a href="contact.html">
+        Contact
+      </a>
     </nav>
+  </header>
 
-    <button class="burger" data-burger aria-expanded="false" aria-controls="mobileMenu" type="button">
-      Menu
-    </button>
-  </div>
+  <main class="container">
 
-  <nav id="mobileMenu" class="menu mobile" data-mobile-menu hidden aria-label="Mobile">
-    <a href="index.html">Home</a>
-    <a class="active" href="about.html">About</a>
-    <a href="lectures.html">Lectures</a>
-    <a href="topics.html">Topics</a>
-    <a href="media.html">Media</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+    <div class="grid">
 
-<main class="container">
-  <div class="grid">
-
-    <!-- LEFT MAIN CARD -->
-    <section class="card" style="grid-column: span 7;">
-      <h2>Biography</h2>
-
-      <p>
-        Dr. Abrar Hussain is an Islamic scholar, Qur’an reciter (Qari), and community educator whose work centers on Qur’anic interpretation, ethics, and social responsibility. His scholarship is grounded in classical Islamic sciences while remaining attentive to the moral and social challenges of contemporary life.
-      </p>
-
-      <p>
-        He holds a Ph.D. in Comparative Interpretation, along with graduate degrees in History and Culture, and has completed formal religious training in traditional Islamic studies. Through teaching, public lectures, and community engagement, he emphasizes clarity, moral accountability, and the application of Qur’anic principles to issues such as dignity, justice, and social inequality.
-      </p>
-
-      <div class="section-title" style="margin-top:14px;">
-        <h2>Education</h2>
-        <span class="hint">Higher Education</span>
-      </div>
-
-      <div class="list">
-        <div class="item">
-          <div class="meta">Doctorate</div>
-          <div class="title">Ph.D. in Comparative Interpretation</div>
-          <div class="desc">Al-Mustafa International University.</div>
-        </div>
-
-        <div class="item">
-          <div class="meta">Master’s Degree</div>
-          <div class="title">M.A. in History</div>
-          <div class="desc">Focused on Islamic history, intellectual traditions, and social transformation.</div>
-        </div>
-
-        <div class="item">
-          <div class="meta">Master’s Degree</div>
-          <div class="title">M.A. in Culture and Civilization</div>
-          <div class="desc">Study of culture, ethics, identity, and civilizational development.</div>
-        </div>
-
-        <div class="item">
-          <div class="meta">Religious Studies</div>
-          <div class="title">Hawza Studies</div>
-          <div class="desc">Location, teachers, and key areas of study.</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- RIGHT SIDE CARD -->
-    <aside class="card" style="grid-column: span 5;">
-      <h2>Profile</h2>
-
-      <img
-        src="https://raw.githubusercontent.com/JA1172027/DrAbrar2/main/profile.jpeg"
-        alt="Portrait of Dr. Abrar Hussain"
-        loading="eager"
-        decoding="async"
-        style="
-          width:100%;
-          max-height:360px;
-          object-fit:cover;
-          border-radius:14px;
-          border:1px solid var(--line);
-        "
+      <!-- MAIN BIOGRAPHY CARD -->
+      <section
+        class="card"
+        style="grid-column: span 7;"
       >
 
-      <p class="note" style="margin-top:10px;">
-      </p>
+        <h1>Biography</h1>
 
-      <div class="section-title" style="margin-top:14px;">
-        <h2>Focus Areas</h2>
-        <span class="hint">Short list</span>
-      </div>
+        <p>
+          Dr. Abrar Hussain is an Islamic scholar, Qur’an reciter
+          (Qari), and community educator whose work centers on
+          Qur’anic interpretation, ethics, and social responsibility.
+          His scholarship is grounded in classical Islamic sciences
+          while remaining attentive to the moral and social challenges
+          of contemporary life.
+        </p>
 
-      <div class="list">
-        <div class="item">
-          <div class="title">Qur’anic Studies</div>
-          <div class="desc">Recitation, meaning, and reflection.</div>
+        <p>
+          He holds a Ph.D. in Comparative Interpretation, along with
+          graduate degrees in History and Culture, and has completed
+          formal religious training in traditional Islamic studies.
+          Through teaching, public lectures, and community engagement,
+          he emphasizes clarity, moral accountability, and the
+          application of Qur’anic principles to issues such as dignity,
+          justice, and social inequality.
+        </p>
+
+        <div
+          class="section-title"
+          style="margin-top: 14px;"
+        >
+          <h2>Education</h2>
+
+          <span class="hint">
+            Higher Education
+          </span>
         </div>
 
-        <div class="item">
-          <div class="title">Ethics</div>
-          <div class="desc">Character, responsibility, and daily conduct.</div>
+        <div class="list">
+
+          <div class="item">
+            <div class="meta">
+              Doctorate
+            </div>
+
+            <div class="title">
+              Ph.D. in Comparative Interpretation
+            </div>
+
+            <div class="desc">
+              Al-Mustafa International University.
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="meta">
+              Master’s Degree
+            </div>
+
+            <div class="title">
+              M.A. in History
+            </div>
+
+            <div class="desc">
+              Focused on Islamic history, intellectual traditions,
+              and social transformation.
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="meta">
+              Master’s Degree
+            </div>
+
+            <div class="title">
+              M.A. in Culture and Civilization
+            </div>
+
+            <div class="desc">
+              Study of culture, ethics, identity, and civilizational
+              development.
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="meta">
+              Religious Studies
+            </div>
+
+            <div class="title">
+              Hawza Studies
+            </div>
+
+            <div class="desc">
+              Formal study of Islamic theology, jurisprudence,
+              Qur’anic interpretation, and related traditional sciences.
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- PROFILE AND FOCUS AREAS -->
+      <aside
+        class="card"
+        style="grid-column: span 5;"
+      >
+
+        <h2>Profile</h2>
+
+        <img
+          src="https://raw.githubusercontent.com/drabrar12/DrAbrar/main/profile.jpeg"
+          alt="Portrait of Dr. Abrar Hussain"
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+          style="
+            display: block;
+            width: 100%;
+            max-height: 360px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 14px;
+            border: 1px solid var(--line);
+          "
+        >
+
+        <div
+          class="section-title"
+          style="margin-top: 18px;"
+        >
+          <h2>Focus Areas</h2>
+
+          <span class="hint">
+            Scholarship and Service
+          </span>
         </div>
 
-        <div class="item">
-          <div class="title">Comparative Interpretation</div>
-          <div class="desc">Approaches, methodology, and clarity.</div>
+        <div class="list">
+
+          <div class="item">
+            <div class="title">
+              Qur’anic Studies
+            </div>
+
+            <div class="desc">
+              Recitation, interpretation, meaning, and reflection.
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="title">
+              Ethics
+            </div>
+
+            <div class="desc">
+              Character, responsibility, moral accountability,
+              and daily conduct.
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="title">
+              Comparative Interpretation
+            </div>
+
+            <div class="desc">
+              Interpretive approaches, methodology, and scholarly
+              clarity.
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="title">
+              Community Guidance
+            </div>
+
+            <div class="desc">
+              Youth, family, education, and constructive dialogue.
+            </div>
+          </div>
+
         </div>
+      </aside>
 
-        <div class="item">
-          <div class="title">Community Guidance</div>
-          <div class="desc">Youth, family, and constructive dialogue.</div>
-        </div>
-      </div>
-    </aside>
-
-  </div>
-</main>
-
-<footer class="footer">
-  <div class="container">
-    <div class="footer-inner">
-      <div class="foot-left">
-        © <span id="year"></span>
-      </div>
-      <div class="foot-right">
-        <a href="#" target="_blank" rel="noopener">X</a>
-        <a href="#" target="_blank" rel="noopener">f</a>
-        <a href="#" target="_blank" rel="noopener">in</a>
-      </div>
     </div>
-  </div>
-</footer>
 
-<script src="assets/js/main.js"></script>
-<script>
-  const y = document.getElementById("year");
-  if (y) y.textContent = new Date().getFullYear();
-</script>
+  </main>
+
+  <footer class="footer">
+
+    <div class="container">
+
+      <div class="footer-inner">
+
+        <div class="foot-left">
+          © <span id="year"></span> Dr. Abrar Hussain
+        </div>
+
+        <div class="foot-right">
+
+          <a
+            href="#"
+            aria-label="X"
+          >
+            X
+          </a>
+
+          <a
+            href="#"
+            aria-label="Facebook"
+          >
+            f
+          </a>
+
+          <a
+            href="#"
+            aria-label="LinkedIn"
+          >
+            in
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    const yearElement = document.getElementById("year");
+
+    if (yearElement) {
+      yearElement.textContent = new Date().getFullYear();
+    }
+  </script>
 
 </body>
 </html>
-
