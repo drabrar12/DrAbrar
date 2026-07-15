@@ -1,144 +1,426 @@
+```html
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lectures | Dr. Abrar Hussain</title>
-  <meta name="description" content="Lectures, sermons, and topic series by Dr. Abrar Hussain.">
-  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <title>Lectures and Recitations | Dr. Abrar Hussain</title>
+
+  <meta
+    name="description"
+    content="Explore lectures, Qur’an recitations, sermons, and educational series by Dr. Abrar Hussain."
+  >
+
+  <meta
+    name="author"
+    content="Dr. Abrar Hussain"
+  >
+
+  <link
+    rel="canonical"
+    href="https://drabrar12.github.io/DrAbrar/lectures.html"
+  >
+
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  >
+
+  <!-- Open Graph: WhatsApp, Facebook, and LinkedIn -->
+  <meta
+    property="og:type"
+    content="website"
+  >
+
+  <meta
+    property="og:site_name"
+    content="Dr. Abrar Hussain"
+  >
+
+  <meta
+    property="og:title"
+    content="Lectures and Recitations | Dr. Abrar Hussain"
+  >
+
+  <meta
+    property="og:description"
+    content="Lectures, Qur’an recitations, sermons, and educational series by Dr. Abrar Hussain."
+  >
+
+  <meta
+    property="og:url"
+    content="https://drabrar12.github.io/DrAbrar/lectures.html"
+  >
+
+  <meta
+    property="og:image"
+    content="https://raw.githubusercontent.com/drabrar12/DrAbrar/main/profile.jpeg"
+  >
+
+  <meta
+    property="og:image:alt"
+    content="Portrait of Dr. Abrar Hussain"
+  >
+
+  <!-- X and other social platforms -->
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  >
+
+  <meta
+    name="twitter:title"
+    content="Lectures and Recitations | Dr. Abrar Hussain"
+  >
+
+  <meta
+    name="twitter:description"
+    content="Lectures, Qur’an recitations, sermons, and educational series by Dr. Abrar Hussain."
+  >
+
+  <meta
+    name="twitter:image"
+    content="https://raw.githubusercontent.com/drabrar12/DrAbrar/main/profile.jpeg"
+  >
+
+  <meta
+    name="twitter:image:alt"
+    content="Portrait of Dr. Abrar Hussain"
+  >
 
   <script type="application/ld+json">
   {
-    "@context":"https://schema.org",
-    "@type":"Person",
-    "name":"Dr. Abrar Hussain",
-    "jobTitle":"Islamic Scholar",
-    "description":"Islamic Scholar, Qur’an Reciter (Qari), Community Leader. Doctorate in Comparative Interpretation.",
-    "url":"https://example.com",
-    "sameAs":[
-      "https://www.youtube.com/@Dr.QariAbrarHussainOfficial",
-      "https://x.com/HANDLE"
-    ]
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Lectures and Recitations by Dr. Abrar Hussain",
+    "description": "A collection of lectures, Qur’an recitations, sermons, and educational series by Dr. Abrar Hussain.",
+    "url": "https://drabrar12.github.io/DrAbrar/lectures.html",
+    "image": "https://raw.githubusercontent.com/drabrar12/DrAbrar/main/profile.jpeg",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Dr. Abrar Hussain",
+      "honorificPrefix": "Dr.",
+      "jobTitle": "Islamic Scholar",
+      "description": "Islamic scholar, Qur’an reciter, community educator, and holder of a doctorate in Comparative Interpretation.",
+      "url": "https://drabrar12.github.io/DrAbrar/",
+      "image": "https://raw.githubusercontent.com/drabrar12/DrAbrar/main/profile.jpeg",
+      "sameAs": [
+        "https://www.youtube.com/@Dr.QariAbrarHussainOfficial"
+      ]
+    }
   }
   </script>
 </head>
+
 <body>
 
-<header class="nav">
-  <div class="nav-inner">
-    <a class="brand" href="index.html">
-      <span class="name">Dr. Abrar Hussain</span>
-      <span class="tag">Islamic Scholar | Qari | Community Educator</span>
-    </a>
+  <header class="nav">
 
-    <nav class="menu" aria-label="Primary">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a class="active" href="lectures.html">Lectures</a>
-      <a href="topics.html">Topics</a>
-      <a href="media.html">Media</a>
-      <a href="contact.html">Contact</a>
+    <div class="nav-inner">
+
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="Dr. Abrar Hussain homepage"
+      >
+        <span class="name">
+          Dr. Abrar Hussain
+        </span>
+
+        <span class="tag">
+          Islamic Scholar | Qari | Community Educator
+        </span>
+      </a>
+
+      <nav
+        class="menu"
+        aria-label="Primary navigation"
+      >
+        <a href="index.html">
+          Home
+        </a>
+
+        <a href="about.html">
+          About
+        </a>
+
+        <a
+          class="active"
+          href="lectures.html"
+          aria-current="page"
+        >
+          Lectures
+        </a>
+
+        <a href="topics.html">
+          Topics
+        </a>
+
+        <a href="media.html">
+          Media
+        </a>
+
+        <a href="contact.html">
+          Contact
+        </a>
+      </nav>
+
+      <button
+        class="burger"
+        data-burger
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+        type="button"
+      >
+        Menu
+      </button>
+
+    </div>
+
+    <nav
+      id="mobileMenu"
+      class="menu mobile"
+      data-mobile-menu
+      hidden
+      aria-label="Mobile navigation"
+    >
+      <a href="index.html">
+        Home
+      </a>
+
+      <a href="about.html">
+        About
+      </a>
+
+      <a
+        class="active"
+        href="lectures.html"
+        aria-current="page"
+      >
+        Lectures
+      </a>
+
+      <a href="topics.html">
+        Topics
+      </a>
+
+      <a href="media.html">
+        Media
+      </a>
+
+      <a href="contact.html">
+        Contact
+      </a>
     </nav>
 
-    <button class="burger" data-burger aria-expanded="false" aria-controls="mobileMenu">
-      Menu
-    </button>
-  </div>
+  </header>
 
-  <nav id="mobileMenu" class="menu mobile" data-mobile-menu hidden aria-label="Mobile">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a class="active" href="lectures.html">Lectures</a>
-    <a href="topics.html">Topics</a>
-    <a href="media.html">Media</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+  <main class="container">
 
-<main class="container">
-  <section class="card">
-    <h2>Lectures and Sermons</h2>
-    <p class="note">
-      A collection of lectures organized by theme and series. Content is added gradually and curated for clarity.
-    </p>
-  </section>
+    <section
+      class="card"
+      aria-labelledby="lectures-title"
+    >
+      <h1 id="lectures-title">
+        Lectures and Recitations
+      </h1>
 
-  <div class="grid">
-    <section class="card" style="grid-column: span 7;">
-      <h2>Topic Series</h2>
-
-      <div class="list">
-        <div class="item">
-          <div class="meta">Muharram</div>
-          <div class="title">Series Title</div>
-          <div class="desc">One clear sentence describing the focus of the series.</div>
-        </div>
-
-        <div class="item">
-          <div class="meta">Ethics</div>
-          <div class="title">Series Title</div>
-          <div class="desc">Reflections on character, responsibility, and conduct.</div>
-        </div>
-
-        <div class="item">
-          <div class="meta">Youth</div>
-          <div class="title">Series Title</div>
-          <div class="desc">Guidance addressing contemporary challenges.</div>
-        </div>
-      </div>
+      <p class="note">
+        A curated collection of Qur’an recitations, lectures, sermons,
+        and educational series organized around major themes in Islamic
+        thought, ethics, and community life.
+      </p>
     </section>
 
-    <aside class="card" style="grid-column: span 5;">
-<h2>Featured Recitation & Lecture</h2>
+    <div class="grid">
 
-<!-- Featured Video 1 -->
-<div class="video" style="margin-top:12px;">
-  <iframe
-    src="https://www.youtube.com/embed/k-rqXmZ2_LY"
-    title="Featured Qur’an Recitation by Dr. Abrar Hussain"
-    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
-</div>
+      <section
+        class="card"
+        style="grid-column: span 7;"
+        aria-labelledby="topic-series-title"
+      >
+        <div class="section-title">
 
-<!-- Featured Video 2 -->
-<div class="video" style="margin-top:16px;">
-  <iframe
-    src="https://www.youtube.com/embed/yTYMfdno2AY"
-    title="Featured Lecture by Dr. Abrar Hussain"
-    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
-</div>
+          <h2 id="topic-series-title">
+            Topic Series
+          </h2>
 
+          <span class="hint">
+            Selected Themes
+          </span>
 
-      <p class="note" style="margin-top:10px;">
-      </p>
-    </aside>
-  </div>
-</main>
+        </div>
 
-<footer class="footer">
-  <div class="container">
-    <div class="footer-inner">
-      <div class="foot-left">
-        © <span id="year"></span> All rights reserved.
-      </div>
-      <div class="foot-right">
-        <a href="#" target="_blank" rel="noopener">X</a>
-        <a href="#" target="_blank" rel="noopener">f</a>
-        <a href="#" target="_blank" rel="noopener">in</a>
-      </div>
+        <div class="list">
+
+          <div class="item">
+
+            <div class="meta">
+              Muharram
+            </div>
+
+            <div class="title">
+              Reflections on Muharram
+            </div>
+
+            <div class="desc">
+              Lessons on sacrifice, justice, moral courage, and
+              spiritual responsibility.
+            </div>
+
+          </div>
+
+          <div class="item">
+
+            <div class="meta">
+              Ethics
+            </div>
+
+            <div class="title">
+              Ethics and Moral Responsibility
+            </div>
+
+            <div class="desc">
+              Reflections on character, accountability, dignity,
+              and responsible conduct.
+            </div>
+
+          </div>
+
+          <div class="item">
+
+            <div class="meta">
+              Youth
+            </div>
+
+            <div class="title">
+              Faith, Identity, and Youth
+            </div>
+
+            <div class="desc">
+              Guidance on faith, identity, education, family,
+              and contemporary social challenges.
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <aside
+        class="card"
+        style="grid-column: span 5;"
+        aria-labelledby="featured-media-title"
+      >
+
+        <div class="section-title">
+
+          <h2 id="featured-media-title">
+            Featured Recitation and Lecture
+          </h2>
+
+          <span class="hint">
+            Selected Videos
+          </span>
+
+        </div>
+
+        <!-- Featured Qur’an recitation -->
+        <div
+          class="video"
+          style="margin-top: 12px;"
+        >
+          <iframe
+            src="https://www.youtube.com/embed/k-rqXmZ2_LY"
+            title="Featured Qur’an recitation by Dr. Abrar Hussain"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <!-- Featured lecture -->
+        <div
+          class="video"
+          style="margin-top: 16px;"
+        >
+          <iframe
+            src="https://www.youtube.com/embed/yTYMfdno2AY"
+            title="Featured lecture by Dr. Abrar Hussain"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div
+          class="card-actions"
+          style="margin-top: 16px;"
+        >
+          <a
+            class="btn"
+            href="https://www.youtube.com/@Dr.QariAbrarHussainOfficial"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit Official YouTube Channel
+          </a>
+        </div>
+
+      </aside>
+
     </div>
-  </div>
-</footer>
 
+  </main>
 
-<script src="assets/js/main.js"></script>
-<script>
-  const y = document.getElementById("year");
-  if (y) y.textContent = new Date().getFullYear();
-</script>
+  <footer class="footer">
+
+    <div class="container">
+
+      <div class="footer-inner">
+
+        <div class="foot-left">
+          © <span id="year"></span> Dr. Abrar Hussain
+        </div>
+
+        <div class="foot-right">
+
+          <a
+            href="https://www.youtube.com/@Dr.QariAbrarHussainOfficial"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Dr. Abrar Hussain’s official YouTube channel"
+          >
+            YouTube
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="main.js"></script>
+
+  <script>
+    const yearElement = document.getElementById("year");
+
+    if (yearElement) {
+      yearElement.textContent = new Date().getFullYear();
+    }
+  </script>
 
 </body>
 </html>
+```
+
