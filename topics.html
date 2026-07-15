@@ -1,127 +1,396 @@
+```html
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Topics | Dr. Abrar Hussain</title>
-  <meta name="description" content="topics, articles, notes, and comparative interpretation by Dr. Abrar Hussain.">
-  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <title>Topics and Articles | Dr. Abrar Hussain</title>
+
+  <meta
+    name="description"
+    content="Explore articles, reflections, notes, and learning resources on Qur’anic ethics, justice, inequality, dignity, and comparative interpretation by Dr. Abrar Hussain."
+  >
+
+  <meta
+    name="author"
+    content="Dr. Abrar Hussain"
+  >
+
+  <link
+    rel="canonical"
+    href="https://drabrar12.github.io/DrAbrar/topics.html"
+  >
+
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  >
+
+  <!-- Open Graph: WhatsApp, Facebook, and LinkedIn -->
+  <meta
+    property="og:type"
+    content="website"
+  >
+
+  <meta
+    property="og:site_name"
+    content="Dr. Abrar Hussain"
+  >
+
+  <meta
+    property="og:title"
+    content="Topics and Articles | Dr. Abrar Hussain"
+  >
+
+  <meta
+    property="og:description"
+    content="Articles and reflections on Qur’anic ethics, justice, inequality, dignity, and comparative interpretation."
+  >
+
+  <meta
+    property="og:url"
+    content="https://drabrar12.github.io/DrAbrar/topics.html"
+  >
+
+  <meta
+    property="og:image"
+    content="https://raw.githubusercontent.com/drabrar12/DrAbrar/main/profile.jpeg"
+  >
+
+  <meta
+    property="og:image:alt"
+    content="Portrait of Dr. Abrar Hussain"
+  >
+
+  <!-- X and other social platforms -->
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  >
+
+  <meta
+    name="twitter:title"
+    content="Topics and Articles | Dr. Abrar Hussain"
+  >
+
+  <meta
+    name="twitter:description"
+    content="Articles and reflections on Qur’anic ethics, justice, inequality, dignity, and comparative interpretation."
+  >
+
+  <meta
+    name="twitter:image"
+    content="https://raw.githubusercontent.com/drabrar12/DrAbrar/main/profile.jpeg"
+  >
+
+  <meta
+    name="twitter:image:alt"
+    content="Portrait of Dr. Abrar Hussain"
+  >
 
   <script type="application/ld+json">
   {
-    "@context":"https://schema.org",
-    "@type":"Person",
-    "name":"Dr. Abrar Hussain",
-    "jobTitle":"Islamic Scholar",
-    "description":"Islamic Scholar, Qur’an Reciter (Qari), Community Leader. Doctorate in Comparative Interpretation.",
-    "url":"https://example.com",
-    "sameAs":[
-      "https://www.youtube.com/@Dr.QariAbrarHussainOfficial"
-    ]
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Topics and Articles by Dr. Abrar Hussain",
+    "description": "A collection of articles, reflections, notes, and educational resources on Qur’anic ethics, justice, inequality, dignity, and comparative interpretation.",
+    "url": "https://drabrar12.github.io/DrAbrar/topics.html",
+    "image": "https://raw.githubusercontent.com/drabrar12/DrAbrar/main/profile.jpeg",
+    "about": [
+      "Qur’anic Ethics",
+      "Social Justice",
+      "Human Dignity",
+      "Social Inequality",
+      "Moral Responsibility",
+      "Comparative Interpretation"
+    ],
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Dr. Abrar Hussain",
+      "honorificPrefix": "Dr.",
+      "jobTitle": "Islamic Scholar",
+      "description": "Islamic scholar, Qur’an reciter, community educator, and holder of a doctorate in Comparative Interpretation.",
+      "url": "https://drabrar12.github.io/DrAbrar/",
+      "image": "https://raw.githubusercontent.com/drabrar12/DrAbrar/main/profile.jpeg",
+      "sameAs": [
+        "https://www.youtube.com/@Dr.QariAbrarHussainOfficial",
+        "https://www.facebook.com/qariabrar.hussain.7/"
+      ]
+    }
   }
   </script>
 </head>
 
 <body>
 
-<header class="nav">
-  <div class="nav-inner">
-    <a class="brand" href="index.html">
-      <span class="name">Dr. Abrar Hussain</span>
-      <span class="tag">Islamic Scholar | Qari | Community Educator</span>
-    </a>
+  <header class="nav">
 
-    <nav class="menu" aria-label="Primary">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="lectures.html">Lectures</a>
-      <a class="active" href="topics.html">Topics</a>
-      <a href="media.html">Media</a>
-      <a href="contact.html">Contact</a>
+    <div class="nav-inner">
+
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="Dr. Abrar Hussain homepage"
+      >
+        <span class="name">
+          Dr. Abrar Hussain
+        </span>
+
+        <span class="tag">
+          Islamic Scholar | Qari | Community Educator
+        </span>
+      </a>
+
+      <nav
+        class="menu"
+        aria-label="Primary navigation"
+      >
+        <a href="index.html">
+          Home
+        </a>
+
+        <a href="about.html">
+          About
+        </a>
+
+        <a href="lectures.html">
+          Lectures
+        </a>
+
+        <a
+          class="active"
+          href="topics.html"
+          aria-current="page"
+        >
+          Topics
+        </a>
+
+        <a href="media.html">
+          Media
+        </a>
+
+        <a href="contact.html">
+          Contact
+        </a>
+      </nav>
+
+      <button
+        class="burger"
+        data-burger
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+        type="button"
+      >
+        Menu
+      </button>
+
+    </div>
+
+    <nav
+      id="mobileMenu"
+      class="menu mobile"
+      data-mobile-menu
+      hidden
+      aria-label="Mobile navigation"
+    >
+      <a href="index.html">
+        Home
+      </a>
+
+      <a href="about.html">
+        About
+      </a>
+
+      <a href="lectures.html">
+        Lectures
+      </a>
+
+      <a
+        class="active"
+        href="topics.html"
+        aria-current="page"
+      >
+        Topics
+      </a>
+
+      <a href="media.html">
+        Media
+      </a>
+
+      <a href="contact.html">
+        Contact
+      </a>
     </nav>
 
-    <button class="burger" data-burger aria-expanded="false" aria-controls="mobileMenu" type="button">
-      Menu
-    </button>
-  </div>
+  </header>
 
-  <nav id="mobileMenu" class="menu mobile" data-mobile-menu hidden aria-label="Mobile">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="lectures.html">Lectures</a>
-    <a class="active" href="topics.html">Topics</a>
-    <a href="media.html">Media</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+  <main class="container">
 
-<main class="container">
+    <section
+      class="card"
+      aria-labelledby="topics-title"
+    >
 
-  <section class="card">
-    <h2>Topics</h2>
-    <p class="note">
-      Selected articles, short notes, and structured learning resources. This page includes comparative interpretation work and curated readings.
-    </p>
-  </section>
+      <h1 id="topics-title">
+        Topics
+      </h1>
 
-  <section class="section-title">
-    <h3>Articles and Notes</h3>
-  </section>
+      <p class="note">
+        Selected articles, analytical reflections, short notes, and
+        structured learning resources on Qur’anic interpretation,
+        Islamic ethics, justice, dignity, and contemporary social life.
+      </p>
 
-  <div class="list">
+    </section>
 
-    <a class="item" href="#" aria-label="Open article on Islam and inequality">
-      <div class="meta">Article</div>
-      <div class="title">Islam, Social Inequality, and the Ethics of Justice</div>
-      <div class="desc">
-        An examination of economic and social inequality through Qur’anic principles,
-        prophetic tradition, and ethical responsibility toward marginalized communities.
+    <section
+      class="card"
+      style="margin-top: 18px;"
+      aria-labelledby="articles-title"
+    >
+
+      <div class="section-title">
+
+        <h2 id="articles-title">
+          Articles and Notes
+        </h2>
+
+        <span class="hint">
+          Forthcoming Resources
+        </span>
+
       </div>
-    </a>
 
-    <a class="item" href="#" aria-label="Open reflection on moral responsibility">
-      <div class="meta">Reflection</div>
-      <div class="title">Poverty, Power, and Moral Responsibility in Contemporary Muslim Societies</div>
-      <div class="desc">
-        Reflections on how modern economic systems shape inequality and the ethical
-        obligations of religious leadership.
+      <div class="list">
+
+        <article class="item">
+
+          <div class="meta">
+            Article
+          </div>
+
+          <div class="title">
+            Islam, Social Inequality, and the Ethics of Justice
+          </div>
+
+          <div class="desc">
+            An examination of economic and social inequality through
+            Qur’anic principles, prophetic tradition, and ethical
+            responsibility toward marginalized communities.
+          </div>
+
+          <p class="note">
+            Full article forthcoming.
+          </p>
+
+        </article>
+
+        <article class="item">
+
+          <div class="meta">
+            Reflection
+          </div>
+
+          <div class="title">
+            Poverty, Power, and Moral Responsibility in Contemporary
+            Muslim Societies
+          </div>
+
+          <div class="desc">
+            Reflections on how modern economic systems shape inequality
+            and the ethical obligations of religious leaders,
+            institutions, and communities.
+          </div>
+
+          <p class="note">
+            Full reflection forthcoming.
+          </p>
+
+        </article>
+
+        <article class="item">
+
+          <div class="meta">
+            Analytical Note
+          </div>
+
+          <div class="title">
+            Qur’anic Ethics and the Question of Human Dignity
+          </div>
+
+          <div class="desc">
+            Analytical notes on dignity
+            (<i lang="ar-Latn">karāmah</i>), justice
+            (<i lang="ar-Latn">ʿadl</i>), and accountability as
+            foundational Islamic values.
+          </div>
+
+          <p class="note">
+            Full note forthcoming.
+          </p>
+
+        </article>
+
       </div>
-    </a>
 
-    <a class="item" href="#" aria-label="Open note on human dignity">
-      <div class="meta">Note</div>
-      <div class="title">Qur’anic Ethics and the Question of Human Dignity</div>
-      <div class="desc">
-        Short analytical notes on dignity (karāmah), justice (‘adl), and accountability
-        as foundational Islamic values.
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+    <div class="container">
+
+      <div class="footer-inner">
+
+        <div class="foot-left">
+          © <span id="year"></span> Dr. Abrar Hussain
+        </div>
+
+        <div class="foot-right">
+
+          <a
+            href="https://www.youtube.com/@Dr.QariAbrarHussainOfficial"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Dr. Abrar Hussain’s official YouTube channel"
+          >
+            YouTube
+          </a>
+
+          <a
+            href="https://www.facebook.com/qariabrar.hussain.7/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Dr. Abrar Hussain’s Facebook page"
+          >
+            Facebook
+          </a>
+
+        </div>
+
       </div>
-    </a>
 
-  </div>
-
-</main>
-
-<footer class="footer">
-  <div class="container">
-    <div class="footer-inner">
-      <div class="foot-left">
-        © <span id="year"></span> All rights reserved.
-      </div>
-      <div class="foot-right">
-        <a href="#" target="_blank" rel="noopener">X</a>
-        <a href="#" target="_blank" rel="noopener">f</a>
-        <a href="#" target="_blank" rel="noopener">in</a>
-      </div>
     </div>
-  </div>
-</footer>
 
-<script src="assets/js/main.js"></script>
-<script>
-  const y = document.getElementById("year");
-  if (y) y.textContent = new Date().getFullYear();
-</script>
+  </footer>
+
+  <script src="main.js"></script>
+
+  <script>
+    const yearElement = document.getElementById("year");
+
+    if (yearElement) {
+      yearElement.textContent = new Date().getFullYear();
+    }
+  </script>
 
 </body>
 </html>
+```
 
